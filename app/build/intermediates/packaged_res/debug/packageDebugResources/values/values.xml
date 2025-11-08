@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorPrimary">#424242</color>
+    <color name="colorPrimaryVariant">#333333</color>
+    <string name="app_name">SkyTrackerApp</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#E0E0E0</item>
+        <item name="colorPrimaryVariant">#BDBDBD</item>
+        <item name="colorOnPrimary">#000000</item>
+    </style>
+    <style name="Theme.SkyTrackerApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#6200EE</item>
+        <item name="colorPrimaryVariant">#3700B3</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondary">#03DAC6</item>
+        <item name="colorSecondaryVariant">#018786</item>
+        <item name="colorOnSecondary">#000000</item>
+        <item name="android:windowBackground">#FFFFFF</item>
+    </style>
+</resources>

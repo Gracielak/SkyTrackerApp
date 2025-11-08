@@ -1,0 +1,16 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#D3D3D3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Imagem da nuvem -->
+    <ImageView
+        android:layout_width="691dp"
+        android:layout_height="799dp"
+        android:contentDescription="Ícone de nuvem"
+        android:src="@drawable/ic_cloud" />
+
+    <!-- Texto do app -->
+</LinearLayout>

@@ -1,0 +1,37 @@
+R_DEF: Internal format may change without notice
+local
+color colorOnPrimary
+color colorPrimary
+color colorPrimaryVariant
+drawable ic_arrow_back
+drawable ic_cloud
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable ic_menu_custom
+drawable ic_person
+drawable ic_profile
+id barraTitulo
+id barraTituloSobre
+id botaoVoltarSobre
+id cardSobre
+id iconeMenu
+id mapFragment
+id menu_sobre
+id tabLayout
+id tituloBarra
+id tituloSobre
+id toolbar
+id toolbarSobre
+id viewPager
+layout activity_main
+layout activity_sobre
+layout activity_splash
+layout fragment_forecast
+layout fragment_map
+menu main_menu
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string hello_blank_fragment
+style AppTheme
+style Theme.SkyTrackerApp
