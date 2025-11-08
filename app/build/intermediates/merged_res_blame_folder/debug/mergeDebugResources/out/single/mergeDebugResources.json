@@ -1,102 +1,110 @@
 [
     {
-        "merged": "com.example.skytrackerapp-debug-35:/drawable_ic_menu_custom.png.flat",
-        "source": "com.example.skytrackerapp-main-37:/drawable/ic_menu_custom.png"
+        "merged": "C:\\Users\\graciela.andreia\\.gradle\\daemon\\8.13\\com.example.skytrackerapp-debug-40:\\drawable_ic_profile.png.flat",
+        "source": "C:\\Users\\graciela.andreia\\.gradle\\daemon\\8.13\\com.example.skytrackerapp-main-42:\\drawable\\ic_profile.png"
     },
     {
-        "merged": "com.example.skytrackerapp-debug-35:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.skytrackerapp-main-37:/drawable/ic_launcher_background.xml"
+        "merged": "C:\\Users\\graciela.andreia\\.gradle\\daemon\\8.13\\com.example.skytrackerapp-debug-40:\\layout_fragment_forecast.xml.flat",
+        "source": "C:\\Users\\graciela.andreia\\.gradle\\daemon\\8.13\\com.example.skytrackerapp-main-42:\\layout\\fragment_forecast.xml"
     },
     {
-        "merged": "com.example.skytrackerapp-debug-35:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.skytrackerapp-main-37:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\graciela.andreia\\.gradle\\daemon\\8.13\\com.example.skytrackerapp-debug-40:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\graciela.andreia\\.gradle\\daemon\\8.13\\com.example.skytrackerapp-main-42:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.skytrackerapp-debug-35:/drawable_ic_profile.png.flat",
-        "source": "com.example.skytrackerapp-main-37:/drawable/ic_profile.png"
+        "merged": "C:\\Users\\graciela.andreia\\.gradle\\daemon\\8.13\\com.example.skytrackerapp-debug-40:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\graciela.andreia\\.gradle\\daemon\\8.13\\com.example.skytrackerapp-pngs-36:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.example.skytrackerapp-debug-35:/menu_main_menu.xml.flat",
-        "source": "com.example.skytrackerapp-main-37:/menu/main_menu.xml"
+        "merged": "C:\\Users\\graciela.andreia\\.gradle\\daemon\\8.13\\com.example.skytrackerapp-debug-40:\\drawable_ic_qr_code.png.flat",
+        "source": "C:\\Users\\graciela.andreia\\.gradle\\daemon\\8.13\\com.example.skytrackerapp-main-42:\\drawable\\ic_qr_code.png"
     },
     {
-        "merged": "com.example.skytrackerapp-debug-35:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.example.skytrackerapp-main-37:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\graciela.andreia\\.gradle\\daemon\\8.13\\com.example.skytrackerapp-debug-40:\\drawable_ic_cloud.png.flat",
+        "source": "C:\\Users\\graciela.andreia\\.gradle\\daemon\\8.13\\com.example.skytrackerapp-main-42:\\drawable\\ic_cloud.png"
     },
     {
-        "merged": "com.example.skytrackerapp-debug-35:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.example.skytrackerapp-main-37:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\graciela.andreia\\.gradle\\daemon\\8.13\\com.example.skytrackerapp-debug-40:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\graciela.andreia\\.gradle\\daemon\\8.13\\com.example.skytrackerapp-main-42:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.skytrackerapp-debug-35:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.skytrackerapp-main-37:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\graciela.andreia\\.gradle\\daemon\\8.13\\com.example.skytrackerapp-debug-40:\\layout_activity_sobre.xml.flat",
+        "source": "C:\\Users\\graciela.andreia\\.gradle\\daemon\\8.13\\com.example.skytrackerapp-main-42:\\layout\\activity_sobre.xml"
     },
     {
-        "merged": "com.example.skytrackerapp-debug-35:/layout_activity_splash.xml.flat",
-        "source": "com.example.skytrackerapp-main-37:/layout/activity_splash.xml"
+        "merged": "C:\\Users\\graciela.andreia\\.gradle\\daemon\\8.13\\com.example.skytrackerapp-debug-40:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\graciela.andreia\\.gradle\\daemon\\8.13\\com.example.skytrackerapp-main-42:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.skytrackerapp-debug-35:/drawable_ic_cloud.png.flat",
-        "source": "com.example.skytrackerapp-main-37:/drawable/ic_cloud.png"
+        "merged": "C:\\Users\\graciela.andreia\\.gradle\\daemon\\8.13\\com.example.skytrackerapp-debug-40:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\graciela.andreia\\.gradle\\daemon\\8.13\\com.example.skytrackerapp-main-42:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.skytrackerapp-debug-35:/layout_fragment_map.xml.flat",
-        "source": "com.example.skytrackerapp-main-37:/layout/fragment_map.xml"
+        "merged": "C:\\Users\\graciela.andreia\\.gradle\\daemon\\8.13\\com.example.skytrackerapp-debug-40:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\graciela.andreia\\.gradle\\daemon\\8.13\\com.example.skytrackerapp-main-42:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.example.skytrackerapp-debug-35:/layout_fragment_forecast.xml.flat",
-        "source": "com.example.skytrackerapp-main-37:/layout/fragment_forecast.xml"
+        "merged": "C:\\Users\\graciela.andreia\\.gradle\\daemon\\8.13\\com.example.skytrackerapp-debug-40:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\graciela.andreia\\.gradle\\daemon\\8.13\\com.example.skytrackerapp-main-42:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "com.example.skytrackerapp-debug-35:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.skytrackerapp-main-37:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\graciela.andreia\\.gradle\\daemon\\8.13\\com.example.skytrackerapp-debug-40:\\drawable_ic_menu_custom.png.flat",
+        "source": "C:\\Users\\graciela.andreia\\.gradle\\daemon\\8.13\\com.example.skytrackerapp-main-42:\\drawable\\ic_menu_custom.png"
     },
     {
-        "merged": "com.example.skytrackerapp-debug-35:/layout_activity_main.xml.flat",
-        "source": "com.example.skytrackerapp-main-37:/layout/activity_main.xml"
+        "merged": "C:\\Users\\graciela.andreia\\.gradle\\daemon\\8.13\\com.example.skytrackerapp-debug-40:\\menu_main_menu.xml.flat",
+        "source": "C:\\Users\\graciela.andreia\\.gradle\\daemon\\8.13\\com.example.skytrackerapp-main-42:\\menu\\main_menu.xml"
     },
     {
-        "merged": "com.example.skytrackerapp-debug-35:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.skytrackerapp-main-37:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\graciela.andreia\\.gradle\\daemon\\8.13\\com.example.skytrackerapp-debug-40:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\graciela.andreia\\.gradle\\daemon\\8.13\\com.example.skytrackerapp-main-42:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.skytrackerapp-debug-35:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.example.skytrackerapp-main-37:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "C:\\Users\\graciela.andreia\\.gradle\\daemon\\8.13\\com.example.skytrackerapp-debug-40:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\graciela.andreia\\.gradle\\daemon\\8.13\\com.example.skytrackerapp-main-42:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "com.example.skytrackerapp-debug-35:/drawable_ic_arrow_back.png.flat",
-        "source": "com.example.skytrackerapp-main-37:/drawable/ic_arrow_back.png"
+        "merged": "C:\\Users\\graciela.andreia\\.gradle\\daemon\\8.13\\com.example.skytrackerapp-debug-40:\\drawable_ic_person.png.flat",
+        "source": "C:\\Users\\graciela.andreia\\.gradle\\daemon\\8.13\\com.example.skytrackerapp-main-42:\\drawable\\ic_person.png"
     },
     {
-        "merged": "com.example.skytrackerapp-debug-35:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.skytrackerapp-main-37:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\graciela.andreia\\.gradle\\daemon\\8.13\\com.example.skytrackerapp-debug-40:\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\graciela.andreia\\.gradle\\daemon\\8.13\\com.example.skytrackerapp-main-42:\\layout\\activity_splash.xml"
     },
     {
-        "merged": "com.example.skytrackerapp-debug-35:/layout_activity_sobre.xml.flat",
-        "source": "com.example.skytrackerapp-main-37:/layout/activity_sobre.xml"
+        "merged": "C:\\Users\\graciela.andreia\\.gradle\\daemon\\8.13\\com.example.skytrackerapp-debug-40:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\graciela.andreia\\.gradle\\daemon\\8.13\\com.example.skytrackerapp-main-42:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.skytrackerapp-debug-35:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.skytrackerapp-main-37:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\graciela.andreia\\.gradle\\daemon\\8.13\\com.example.skytrackerapp-debug-40:\\drawable_ic_arrow_back.png.flat",
+        "source": "C:\\Users\\graciela.andreia\\.gradle\\daemon\\8.13\\com.example.skytrackerapp-main-42:\\drawable\\ic_arrow_back.png"
     },
     {
-        "merged": "com.example.skytrackerapp-debug-35:/drawable_ic_person.png.flat",
-        "source": "com.example.skytrackerapp-main-37:/drawable/ic_person.png"
+        "merged": "com.example.skytrackerapp-debug-40:/layout_fragment_forecast.xml.flat",
+        "source": "com.example.skytrackerapp-main-42:/layout/fragment_forecast.xml"
     },
     {
-        "merged": "com.example.skytrackerapp-debug-35:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.skytrackerapp-main-37:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\graciela.andreia\\.gradle\\daemon\\8.13\\com.example.skytrackerapp-debug-40:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\graciela.andreia\\.gradle\\daemon\\8.13\\com.example.skytrackerapp-main-42:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.skytrackerapp-debug-35:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "com.example.skytrackerapp-pngs-31:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\graciela.andreia\\.gradle\\daemon\\8.13\\com.example.skytrackerapp-debug-40:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\graciela.andreia\\.gradle\\daemon\\8.13\\com.example.skytrackerapp-main-42:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.skytrackerapp-debug-35:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.example.skytrackerapp-main-37:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\graciela.andreia\\.gradle\\daemon\\8.13\\com.example.skytrackerapp-debug-40:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\graciela.andreia\\.gradle\\daemon\\8.13\\com.example.skytrackerapp-main-42:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.skytrackerapp-debug-35:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.skytrackerapp-main-37:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\graciela.andreia\\.gradle\\daemon\\8.13\\com.example.skytrackerapp-debug-40:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\graciela.andreia\\.gradle\\daemon\\8.13\\com.example.skytrackerapp-main-42:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\graciela.andreia\\.gradle\\daemon\\8.13\\com.example.skytrackerapp-debug-40:\\layout_fragment_map.xml.flat",
+        "source": "C:\\Users\\graciela.andreia\\.gradle\\daemon\\8.13\\com.example.skytrackerapp-main-42:\\layout\\fragment_map.xml"
+    },
+    {
+        "merged": "C:\\Users\\graciela.andreia\\.gradle\\daemon\\8.13\\com.example.skytrackerapp-debug-40:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\graciela.andreia\\.gradle\\daemon\\8.13\\com.example.skytrackerapp-main-42:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     }
 ]

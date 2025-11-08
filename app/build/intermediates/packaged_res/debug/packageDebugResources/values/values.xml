@@ -3,6 +3,7 @@
     <color name="colorOnPrimary">#FFFFFF</color>
     <color name="colorPrimary">#424242</color>
     <color name="colorPrimaryVariant">#333333</color>
+    <color name="teal_200">#03DAC5</color>
     <string name="app_name">SkyTrackerApp</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">

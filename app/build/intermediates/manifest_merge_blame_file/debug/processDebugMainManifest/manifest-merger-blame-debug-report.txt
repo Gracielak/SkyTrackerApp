@@ -15,14 +15,14 @@
 13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 13-->C:\Users\graciela.andreia\Desktop\SkyTrackerApp\app\src\main\AndroidManifest.xml:7:5-80
 13-->C:\Users\graciela.andreia\Desktop\SkyTrackerApp\app\src\main\AndroidManifest.xml:7:22-78
-14
-15    <!-- Include required permissions for Google Maps API to run. -->
-16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-16-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\aee9938b7aa52c16ee4af2391e28f4f9\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:23:5-79
-16-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\aee9938b7aa52c16ee4af2391e28f4f9\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:23:22-76
-17    <uses-permission android:name="android.permission.INTERNET" />
-17-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\aee9938b7aa52c16ee4af2391e28f4f9\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:24:5-67
-17-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\aee9938b7aa52c16ee4af2391e28f4f9\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:24:22-64
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\graciela.andreia\Desktop\SkyTrackerApp\app\src\main\AndroidManifest.xml:8:5-66
+14-->C:\Users\graciela.andreia\Desktop\SkyTrackerApp\app\src\main\AndroidManifest.xml:8:22-64
+15
+16    <!-- Include required permissions for Google Maps API to run. -->
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\aee9938b7aa52c16ee4af2391e28f4f9\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:23:5-79
+17-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\aee9938b7aa52c16ee4af2391e28f4f9\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:23:22-76
 18
 19    <uses-feature
 19-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\aee9938b7aa52c16ee4af2391e28f4f9\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:26:5-28:35
@@ -50,154 +50,209 @@
 33    <uses-permission android:name="com.example.skytrackerapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 33-->[androidx.core:core:1.13.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\bebb60f3b1ac1e3d825fd5d09ccb7bd4\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
 33-->[androidx.core:core:1.13.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\bebb60f3b1ac1e3d825fd5d09ccb7bd4\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
-34
-35    <application
-35-->C:\Users\graciela.andreia\Desktop\SkyTrackerApp\app\src\main\AndroidManifest.xml:9:5-39:19
-36        android:allowBackup="true"
-36-->C:\Users\graciela.andreia\Desktop\SkyTrackerApp\app\src\main\AndroidManifest.xml:10:9-35
-37        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-37-->[androidx.core:core:1.13.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\bebb60f3b1ac1e3d825fd5d09ccb7bd4\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
-38        android:debuggable="true"
-39        android:extractNativeLibs="true"
-40        android:icon="@mipmap/ic_launcher"
-40-->C:\Users\graciela.andreia\Desktop\SkyTrackerApp\app\src\main\AndroidManifest.xml:11:9-43
-41        android:label="@string/app_name"
-41-->C:\Users\graciela.andreia\Desktop\SkyTrackerApp\app\src\main\AndroidManifest.xml:12:9-41
-42        android:roundIcon="@mipmap/ic_launcher_round"
-42-->C:\Users\graciela.andreia\Desktop\SkyTrackerApp\app\src\main\AndroidManifest.xml:13:9-54
-43        android:supportsRtl="true"
-43-->C:\Users\graciela.andreia\Desktop\SkyTrackerApp\app\src\main\AndroidManifest.xml:14:9-35
-44        android:testOnly="true"
-45        android:theme="@style/AppTheme" >
-45-->C:\Users\graciela.andreia\Desktop\SkyTrackerApp\app\src\main\AndroidManifest.xml:15:9-40
-46
-47        <!-- ✅ API KEY do Maps dentro da Application -->
-48        <meta-data
-48-->C:\Users\graciela.andreia\Desktop\SkyTrackerApp\app\src\main\AndroidManifest.xml:18:9-20:71
-49            android:name="com.google.android.geo.API_KEY"
-49-->C:\Users\graciela.andreia\Desktop\SkyTrackerApp\app\src\main\AndroidManifest.xml:19:13-58
-50            android:value="AIzaSyBMxTVGnPhm96Uh7Ec4Ip1NyTH-iZuzcOo" />
-50-->C:\Users\graciela.andreia\Desktop\SkyTrackerApp\app\src\main\AndroidManifest.xml:20:13-68
-51
-52        <activity
-52-->C:\Users\graciela.andreia\Desktop\SkyTrackerApp\app\src\main\AndroidManifest.xml:22:9-24:40
-53            android:name="com.example.skytrackerapp.SobreActivity"
-53-->C:\Users\graciela.andreia\Desktop\SkyTrackerApp\app\src\main\AndroidManifest.xml:23:13-42
-54            android:exported="false" />
-54-->C:\Users\graciela.andreia\Desktop\SkyTrackerApp\app\src\main\AndroidManifest.xml:24:13-37
-55        <activity
-55-->C:\Users\graciela.andreia\Desktop\SkyTrackerApp\app\src\main\AndroidManifest.xml:26:9-33:20
-56            android:name="com.example.skytrackerapp.SplashActivity"
-56-->C:\Users\graciela.andreia\Desktop\SkyTrackerApp\app\src\main\AndroidManifest.xml:27:13-43
-57            android:exported="true" >
-57-->C:\Users\graciela.andreia\Desktop\SkyTrackerApp\app\src\main\AndroidManifest.xml:28:13-36
-58            <intent-filter>
-58-->C:\Users\graciela.andreia\Desktop\SkyTrackerApp\app\src\main\AndroidManifest.xml:29:13-32:29
-59                <action android:name="android.intent.action.MAIN" />
-59-->C:\Users\graciela.andreia\Desktop\SkyTrackerApp\app\src\main\AndroidManifest.xml:30:17-69
-59-->C:\Users\graciela.andreia\Desktop\SkyTrackerApp\app\src\main\AndroidManifest.xml:30:25-66
-60
-61                <category android:name="android.intent.category.LAUNCHER" />
-61-->C:\Users\graciela.andreia\Desktop\SkyTrackerApp\app\src\main\AndroidManifest.xml:31:17-77
-61-->C:\Users\graciela.andreia\Desktop\SkyTrackerApp\app\src\main\AndroidManifest.xml:31:27-74
-62            </intent-filter>
-63        </activity>
-64        <activity
-64-->C:\Users\graciela.andreia\Desktop\SkyTrackerApp\app\src\main\AndroidManifest.xml:35:9-37:39
-65            android:name="com.example.skytrackerapp.MainActivity"
-65-->C:\Users\graciela.andreia\Desktop\SkyTrackerApp\app\src\main\AndroidManifest.xml:36:13-41
-66            android:exported="true" />
-66-->C:\Users\graciela.andreia\Desktop\SkyTrackerApp\app\src\main\AndroidManifest.xml:37:13-36
-67
-68        <!-- Needs to be explicitly declared on P+ -->
-69        <uses-library
-69-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\aee9938b7aa52c16ee4af2391e28f4f9\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:39:9-41:40
-70            android:name="org.apache.http.legacy"
-70-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\aee9938b7aa52c16ee4af2391e28f4f9\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:40:13-50
-71            android:required="false" />
-71-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\aee9938b7aa52c16ee4af2391e28f4f9\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:41:13-37
-72
-73        <activity
-73-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\4bc285d660eaef91d4795bfb3c156147\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
-74            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-74-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\4bc285d660eaef91d4795bfb3c156147\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
-75            android:exported="false"
-75-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\4bc285d660eaef91d4795bfb3c156147\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
-76            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-76-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\4bc285d660eaef91d4795bfb3c156147\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
-77
-78        <meta-data
-78-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\4e833bfa911a2bad1a0da77061f6260c\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
-79            android:name="com.google.android.gms.version"
-79-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\4e833bfa911a2bad1a0da77061f6260c\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
-80            android:value="@integer/google_play_services_version" />
-80-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\4e833bfa911a2bad1a0da77061f6260c\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
-81
-82        <provider
-82-->[androidx.emoji2:emoji2:1.2.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\317ab97f3be10e70b783e660512b8fa9\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-83            android:name="androidx.startup.InitializationProvider"
-83-->[androidx.emoji2:emoji2:1.2.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\317ab97f3be10e70b783e660512b8fa9\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
-84            android:authorities="com.example.skytrackerapp.androidx-startup"
-84-->[androidx.emoji2:emoji2:1.2.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\317ab97f3be10e70b783e660512b8fa9\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
-85            android:exported="false" >
-85-->[androidx.emoji2:emoji2:1.2.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\317ab97f3be10e70b783e660512b8fa9\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
-86            <meta-data
-86-->[androidx.emoji2:emoji2:1.2.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\317ab97f3be10e70b783e660512b8fa9\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-87                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-87-->[androidx.emoji2:emoji2:1.2.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\317ab97f3be10e70b783e660512b8fa9\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
-88                android:value="androidx.startup" />
-88-->[androidx.emoji2:emoji2:1.2.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\317ab97f3be10e70b783e660512b8fa9\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
-89            <meta-data
-89-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\77256ee4da9a6236c4f188021f3bb46f\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
-90                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-90-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\77256ee4da9a6236c4f188021f3bb46f\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
-91                android:value="androidx.startup" />
-91-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\77256ee4da9a6236c4f188021f3bb46f\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
-92            <meta-data
-92-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\3806c1e946e330137ffb1315012e1f74\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
-93                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-93-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\3806c1e946e330137ffb1315012e1f74\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
-94                android:value="androidx.startup" />
-94-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\3806c1e946e330137ffb1315012e1f74\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
-95        </provider>
-96
-97        <receiver
-97-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\3806c1e946e330137ffb1315012e1f74\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
-98            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-98-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\3806c1e946e330137ffb1315012e1f74\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
-99            android:directBootAware="false"
-99-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\3806c1e946e330137ffb1315012e1f74\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
-100            android:enabled="true"
-100-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\3806c1e946e330137ffb1315012e1f74\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
-101            android:exported="true"
-101-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\3806c1e946e330137ffb1315012e1f74\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
-102            android:permission="android.permission.DUMP" >
-102-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\3806c1e946e330137ffb1315012e1f74\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
-103            <intent-filter>
-103-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\3806c1e946e330137ffb1315012e1f74\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
-104                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-104-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\3806c1e946e330137ffb1315012e1f74\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
-104-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\3806c1e946e330137ffb1315012e1f74\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
-105            </intent-filter>
-106            <intent-filter>
-106-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\3806c1e946e330137ffb1315012e1f74\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
-107                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-107-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\3806c1e946e330137ffb1315012e1f74\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
-107-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\3806c1e946e330137ffb1315012e1f74\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
-108            </intent-filter>
-109            <intent-filter>
-109-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\3806c1e946e330137ffb1315012e1f74\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
-110                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-110-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\3806c1e946e330137ffb1315012e1f74\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
-110-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\3806c1e946e330137ffb1315012e1f74\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
-111            </intent-filter>
-112            <intent-filter>
-112-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\3806c1e946e330137ffb1315012e1f74\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
-113                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-113-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\3806c1e946e330137ffb1315012e1f74\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
-113-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\3806c1e946e330137ffb1315012e1f74\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
-114            </intent-filter>
-115        </receiver>
-116    </application>
-117
-118</manifest>
+34    <uses-permission android:name="android.permission.CAMERA" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+34-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\339c811ec918b3e9e902a7557b35794b\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:22:5-65
+34-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\339c811ec918b3e9e902a7557b35794b\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:22:22-62
+35    <uses-feature
+35-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\339c811ec918b3e9e902a7557b35794b\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:25:5-27:36
+36        android:name="android.hardware.camera"
+36-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\339c811ec918b3e9e902a7557b35794b\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:26:9-47
+37        android:required="false" />
+37-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\339c811ec918b3e9e902a7557b35794b\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:27:9-33
+38    <uses-feature
+38-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\339c811ec918b3e9e902a7557b35794b\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:28:5-30:36
+39        android:name="android.hardware.camera.front"
+39-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\339c811ec918b3e9e902a7557b35794b\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:29:9-53
+40        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+40-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\339c811ec918b3e9e902a7557b35794b\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:30:9-33
+41    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+42    <uses-feature
+42-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\339c811ec918b3e9e902a7557b35794b\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:33:5-35:36
+43        android:name="android.hardware.camera.autofocus"
+43-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\339c811ec918b3e9e902a7557b35794b\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:34:9-57
+44        android:required="false" />
+44-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\339c811ec918b3e9e902a7557b35794b\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:35:9-33
+45    <uses-feature
+45-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\339c811ec918b3e9e902a7557b35794b\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:36:5-38:36
+46        android:name="android.hardware.camera.flash"
+46-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\339c811ec918b3e9e902a7557b35794b\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:37:9-53
+47        android:required="false" />
+47-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\339c811ec918b3e9e902a7557b35794b\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:38:9-33
+48    <uses-feature
+48-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\339c811ec918b3e9e902a7557b35794b\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:39:5-41:36
+49        android:name="android.hardware.screen.landscape"
+49-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\339c811ec918b3e9e902a7557b35794b\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:40:9-57
+50        android:required="false" />
+50-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\339c811ec918b3e9e902a7557b35794b\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:41:9-33
+51    <uses-feature
+51-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\339c811ec918b3e9e902a7557b35794b\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:42:5-44:36
+52        android:name="android.hardware.wifi"
+52-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\339c811ec918b3e9e902a7557b35794b\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:43:9-45
+53        android:required="false" />
+53-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\339c811ec918b3e9e902a7557b35794b\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:44:9-33
+54
+55    <application
+55-->C:\Users\graciela.andreia\Desktop\SkyTrackerApp\app\src\main\AndroidManifest.xml:10:5-40:19
+56        android:allowBackup="true"
+56-->C:\Users\graciela.andreia\Desktop\SkyTrackerApp\app\src\main\AndroidManifest.xml:11:9-35
+57        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+57-->[androidx.core:core:1.13.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\bebb60f3b1ac1e3d825fd5d09ccb7bd4\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+58        android:debuggable="true"
+59        android:extractNativeLibs="true"
+60        android:icon="@mipmap/ic_launcher"
+60-->C:\Users\graciela.andreia\Desktop\SkyTrackerApp\app\src\main\AndroidManifest.xml:12:9-43
+61        android:label="@string/app_name"
+61-->C:\Users\graciela.andreia\Desktop\SkyTrackerApp\app\src\main\AndroidManifest.xml:13:9-41
+62        android:roundIcon="@mipmap/ic_launcher_round"
+62-->C:\Users\graciela.andreia\Desktop\SkyTrackerApp\app\src\main\AndroidManifest.xml:14:9-54
+63        android:supportsRtl="true"
+63-->C:\Users\graciela.andreia\Desktop\SkyTrackerApp\app\src\main\AndroidManifest.xml:15:9-35
+64        android:testOnly="true"
+65        android:theme="@style/AppTheme" >
+65-->C:\Users\graciela.andreia\Desktop\SkyTrackerApp\app\src\main\AndroidManifest.xml:16:9-40
+66
+67        <!-- ✅ API KEY do Maps dentro da Application -->
+68        <meta-data
+68-->C:\Users\graciela.andreia\Desktop\SkyTrackerApp\app\src\main\AndroidManifest.xml:19:9-21:71
+69            android:name="com.google.android.geo.API_KEY"
+69-->C:\Users\graciela.andreia\Desktop\SkyTrackerApp\app\src\main\AndroidManifest.xml:20:13-58
+70            android:value="AIzaSyBMxTVGnPhm96Uh7Ec4Ip1NyTH-iZuzcOo" />
+70-->C:\Users\graciela.andreia\Desktop\SkyTrackerApp\app\src\main\AndroidManifest.xml:21:13-68
+71
+72        <activity
+72-->C:\Users\graciela.andreia\Desktop\SkyTrackerApp\app\src\main\AndroidManifest.xml:23:9-25:40
+73            android:name="com.example.skytrackerapp.SobreActivity"
+73-->C:\Users\graciela.andreia\Desktop\SkyTrackerApp\app\src\main\AndroidManifest.xml:24:13-42
+74            android:exported="false" />
+74-->C:\Users\graciela.andreia\Desktop\SkyTrackerApp\app\src\main\AndroidManifest.xml:25:13-37
+75        <activity
+75-->C:\Users\graciela.andreia\Desktop\SkyTrackerApp\app\src\main\AndroidManifest.xml:27:9-34:20
+76            android:name="com.example.skytrackerapp.SplashActivity"
+76-->C:\Users\graciela.andreia\Desktop\SkyTrackerApp\app\src\main\AndroidManifest.xml:28:13-43
+77            android:exported="true" >
+77-->C:\Users\graciela.andreia\Desktop\SkyTrackerApp\app\src\main\AndroidManifest.xml:29:13-36
+78            <intent-filter>
+78-->C:\Users\graciela.andreia\Desktop\SkyTrackerApp\app\src\main\AndroidManifest.xml:30:13-33:29
+79                <action android:name="android.intent.action.MAIN" />
+79-->C:\Users\graciela.andreia\Desktop\SkyTrackerApp\app\src\main\AndroidManifest.xml:31:17-69
+79-->C:\Users\graciela.andreia\Desktop\SkyTrackerApp\app\src\main\AndroidManifest.xml:31:25-66
+80
+81                <category android:name="android.intent.category.LAUNCHER" />
+81-->C:\Users\graciela.andreia\Desktop\SkyTrackerApp\app\src\main\AndroidManifest.xml:32:17-77
+81-->C:\Users\graciela.andreia\Desktop\SkyTrackerApp\app\src\main\AndroidManifest.xml:32:27-74
+82            </intent-filter>
+83        </activity>
+84        <activity
+84-->C:\Users\graciela.andreia\Desktop\SkyTrackerApp\app\src\main\AndroidManifest.xml:36:9-38:39
+85            android:name="com.example.skytrackerapp.MainActivity"
+85-->C:\Users\graciela.andreia\Desktop\SkyTrackerApp\app\src\main\AndroidManifest.xml:37:13-41
+86            android:exported="true" />
+86-->C:\Users\graciela.andreia\Desktop\SkyTrackerApp\app\src\main\AndroidManifest.xml:38:13-36
+87
+88        <!-- Needs to be explicitly declared on P+ -->
+89        <uses-library
+89-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\aee9938b7aa52c16ee4af2391e28f4f9\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:39:9-41:40
+90            android:name="org.apache.http.legacy"
+90-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\aee9938b7aa52c16ee4af2391e28f4f9\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:40:13-50
+91            android:required="false" />
+91-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\aee9938b7aa52c16ee4af2391e28f4f9\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:41:13-37
+92
+93        <activity
+93-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\2dee8ba8a1ab67ada8882f124334c777\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+94            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+94-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\2dee8ba8a1ab67ada8882f124334c777\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+95            android:exported="false"
+95-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\2dee8ba8a1ab67ada8882f124334c777\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+96            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+96-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\2dee8ba8a1ab67ada8882f124334c777\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+97
+98        <meta-data
+98-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\bf0e253701e3a4eaee15c9d69c8f9a65\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+99            android:name="com.google.android.gms.version"
+99-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\bf0e253701e3a4eaee15c9d69c8f9a65\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+100            android:value="@integer/google_play_services_version" />
+100-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\bf0e253701e3a4eaee15c9d69c8f9a65\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+101
+102        <provider
+102-->[androidx.emoji2:emoji2:1.2.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\317ab97f3be10e70b783e660512b8fa9\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+103            android:name="androidx.startup.InitializationProvider"
+103-->[androidx.emoji2:emoji2:1.2.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\317ab97f3be10e70b783e660512b8fa9\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+104            android:authorities="com.example.skytrackerapp.androidx-startup"
+104-->[androidx.emoji2:emoji2:1.2.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\317ab97f3be10e70b783e660512b8fa9\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+105            android:exported="false" >
+105-->[androidx.emoji2:emoji2:1.2.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\317ab97f3be10e70b783e660512b8fa9\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+106            <meta-data
+106-->[androidx.emoji2:emoji2:1.2.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\317ab97f3be10e70b783e660512b8fa9\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+107                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+107-->[androidx.emoji2:emoji2:1.2.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\317ab97f3be10e70b783e660512b8fa9\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+108                android:value="androidx.startup" />
+108-->[androidx.emoji2:emoji2:1.2.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\317ab97f3be10e70b783e660512b8fa9\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+109            <meta-data
+109-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\77256ee4da9a6236c4f188021f3bb46f\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+110                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+110-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\77256ee4da9a6236c4f188021f3bb46f\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+111                android:value="androidx.startup" />
+111-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\77256ee4da9a6236c4f188021f3bb46f\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+112            <meta-data
+112-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\3806c1e946e330137ffb1315012e1f74\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+113                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+113-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\3806c1e946e330137ffb1315012e1f74\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+114                android:value="androidx.startup" />
+114-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\3806c1e946e330137ffb1315012e1f74\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+115        </provider>
+116
+117        <receiver
+117-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\3806c1e946e330137ffb1315012e1f74\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+118            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+118-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\3806c1e946e330137ffb1315012e1f74\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+119            android:directBootAware="false"
+119-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\3806c1e946e330137ffb1315012e1f74\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+120            android:enabled="true"
+120-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\3806c1e946e330137ffb1315012e1f74\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+121            android:exported="true"
+121-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\3806c1e946e330137ffb1315012e1f74\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+122            android:permission="android.permission.DUMP" >
+122-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\3806c1e946e330137ffb1315012e1f74\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+123            <intent-filter>
+123-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\3806c1e946e330137ffb1315012e1f74\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+124                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+124-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\3806c1e946e330137ffb1315012e1f74\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+124-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\3806c1e946e330137ffb1315012e1f74\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+125            </intent-filter>
+126            <intent-filter>
+126-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\3806c1e946e330137ffb1315012e1f74\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+127                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+127-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\3806c1e946e330137ffb1315012e1f74\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+127-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\3806c1e946e330137ffb1315012e1f74\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+128            </intent-filter>
+129            <intent-filter>
+129-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\3806c1e946e330137ffb1315012e1f74\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+130                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+130-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\3806c1e946e330137ffb1315012e1f74\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+130-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\3806c1e946e330137ffb1315012e1f74\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+131            </intent-filter>
+132            <intent-filter>
+132-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\3806c1e946e330137ffb1315012e1f74\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+133                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+133-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\3806c1e946e330137ffb1315012e1f74\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+133-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\3806c1e946e330137ffb1315012e1f74\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+134            </intent-filter>
+135        </receiver>
+136
+137        <activity
+137-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\339c811ec918b3e9e902a7557b35794b\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:47:9-53:63
+138            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+138-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\339c811ec918b3e9e902a7557b35794b\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:48:13-74
+139            android:clearTaskOnLaunch="true"
+139-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\339c811ec918b3e9e902a7557b35794b\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:49:13-45
+140            android:screenOrientation="sensorLandscape"
+140-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\339c811ec918b3e9e902a7557b35794b\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:50:13-56
+141            android:stateNotNeeded="true"
+141-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\339c811ec918b3e9e902a7557b35794b\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:51:13-42
+142            android:theme="@style/zxing_CaptureTheme"
+142-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\339c811ec918b3e9e902a7557b35794b\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:52:13-54
+143            android:windowSoftInputMode="stateAlwaysHidden" />
+143-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\graciela.andreia\.gradle\caches\8.13\transforms\339c811ec918b3e9e902a7557b35794b\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:53:13-60
+144    </application>
+145
+146</manifest>

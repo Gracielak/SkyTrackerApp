@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.skytrackerapp-mergeDebugResources-33:/values-nb/values-nb.xml",
+            "outputFile": "com.example.skytrackerapp-mergeDebugResources-38:/values-nb/values-nb.xml",
             "map": [
                 {
                     "source": "C:\\Users\\graciela.andreia\\.gradle\\caches\\8.13\\transforms\\bebb60f3b1ac1e3d825fd5d09ccb7bd4\\transformed\\core-1.13.0\\res\\values-nb\\values-nb.xml",
@@ -18,23 +18,6 @@
                         "startOffsets": "3348,3442,3544,3641,3740,3848,3954,10751",
                         "endColumns": "93,101,96,98,107,105,119,100",
                         "endOffsets": "3437,3539,3636,3735,3843,3949,4069,10847"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\graciela.andreia\\.gradle\\caches\\8.13\\transforms\\4bc285d660eaef91d4795bfb3c156147\\transformed\\jetified-play-services-base-18.1.0\\res\\values-nb\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "193,295,450,572,677,829,955,1071,1170,1320,1423,1580,1704,1842,2014,2077,2135",
-                        "endColumns": "101,154,121,104,151,125,115,98,149,102,156,123,137,171,62,57,73",
-                        "endOffsets": "294,449,571,676,828,954,1070,1169,1319,1422,1579,1703,1841,2013,2076,2134,2208"
-                    },
-                    "to": {
-                        "startLines": "48,49,50,51,52,53,54,55,57,58,59,60,61,62,63,64,65",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "4374,4480,4639,4765,4874,5030,5160,5280,5513,5667,5774,5935,6063,6205,6381,6448,6510",
-                        "endColumns": "105,158,125,108,155,129,119,102,153,106,160,127,141,175,66,61,77",
-                        "endOffsets": "4475,4634,4760,4869,5025,5155,5275,5378,5662,5769,5930,6058,6200,6376,6443,6505,6583"
                     }
                 },
                 {
@@ -74,7 +57,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\graciela.andreia\\.gradle\\caches\\8.13\\transforms\\4e833bfa911a2bad1a0da77061f6260c\\transformed\\jetified-play-services-basement-18.1.0\\res\\values-nb\\values.xml",
+                    "source": "C:\\Users\\graciela.andreia\\.gradle\\caches\\8.13\\transforms\\2dee8ba8a1ab67ada8882f124334c777\\transformed\\jetified-play-services-base-18.0.1\\res\\values-nb\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "193,295,450,572,677,829,955,1071,1170,1320,1423,1580,1704,1842,2014,2077,2135",
+                        "endColumns": "101,154,121,104,151,125,115,98,149,102,156,123,137,171,62,57,73",
+                        "endOffsets": "294,449,571,676,828,954,1070,1169,1319,1422,1579,1703,1841,2013,2076,2134,2208"
+                    },
+                    "to": {
+                        "startLines": "48,49,50,51,52,53,54,55,57,58,59,60,61,62,63,64,65",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "4374,4480,4639,4765,4874,5030,5160,5280,5513,5667,5774,5935,6063,6205,6381,6448,6510",
+                        "endColumns": "105,158,125,108,155,129,119,102,153,106,160,127,141,175,66,61,77",
+                        "endOffsets": "4475,4634,4760,4869,5025,5155,5275,5378,5662,5769,5930,6058,6200,6376,6443,6505,6583"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\graciela.andreia\\.gradle\\caches\\8.13\\transforms\\bf0e253701e3a4eaee15c9d69c8f9a65\\transformed\\jetified-play-services-basement-18.0.0\\res\\values-nb\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
